@@ -1,0 +1,27 @@
+{
+    "name": "reglue/contracts4sql4php",
+    "description": "PHP - SQL abstraction.",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+    {
+        "name": "Divine Nkwati",
+        "email": "drnkwati@gmail.com"
+    }],
+    "require":
+    {
+        "php": ">=7.0"
+    },
+    "autoload":
+    {
+        "psr-4":
+        {
+            "Reglue\\Contracts4sql4php\\": "src/"
+        }
+    },
+    "config":
+    {
+        "sort-packages": true
+    },
+    "minimum-stability": "stable"
+}
